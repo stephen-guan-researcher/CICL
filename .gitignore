@@ -1,0 +1,42 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Secrets and local environment files.
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Local-only experiment artifacts, data, and generated outputs.
+artifacts/
+/outputs/
+/data/
+/examples
+experiments/data/
+training/data/
+training/outputs/
+
+# Local-only research notes and paper/submission packages.
+idea_scout/
+reports/
+docs/
+manuscript/
+paper/
+
+# Model weights and generated packages.
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.pdf
+*.zip
+*.tar.gz
+*.tgz
+*.tar
